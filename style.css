@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+h1{
+    color: black;
+    background-color: ;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+#contenedor {
+    background-color: aquamarine;
+    width: 60vw;
+    height: 50vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+}
+#contenedor2 {
+}
