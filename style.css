@@ -1,22 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-h1{
-    color: black;
-    background-color: ;
-}
-body{
-    font-family: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap');
 
+body{
+    background-image: url(fotos/3.gif);
+    font-family: 'Arvo', serif;
 }
+
 #contenedor {
-    background-color: aquamarine;
-    width: 60vw;
-    height: 50vh;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    top: 0;
-    margin: auto;
+       background-color: red;
+        width: 700px;
+        height: 60vh;
+        position: absolute;
+        inset: 0;
+        margin: auto;
+        text-align: center;
+        border-radius: 5%;
+#calculadora{
+    background: whitesmoke;
+    width: 40%;
+    height: 100%;
+    float: left;
+    border-radius: 3%;
+    box-shadow: 0 0 15px black;
 }
-#contenedor2 {
+#detalle{  
+    width:50%;
+    height:0%;
+    float: left;
+    border-radius: 1.5%;
+    box-shadow: 0 0 5px black;
+}
+#button{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Arvo', serif;
+    border-radius: 10px;
+    padding: 13px 50px;
+    text-transform: uppercase;
+    border: 1px solid red;
+    letter-spacing: 1px;
+    transition: transform 20ms ease-in;
+    background-color: yellow;
+    
+}
+#titulo{
+   color: firebrick;
+   
+}
+#calcu{
+    color: wheat;
+}
+#input{
+    color: black;
+    border-radius: 60px;
+    padding-top: 5px;
+    padding-right: 5%;
 }
