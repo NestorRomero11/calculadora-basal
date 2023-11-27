@@ -1,30 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <title>calculadora de hidratación</title>
-    <link rel="shortcut icon" href="fotos/icono3.ico">
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="contenedor">
-<div>
-    <h1>Hidratación basal</h1>
-    <input type="number" placeholder="peso en kg"|>
-    <button>calcular</button>
-    <p>71cc/h</p>
-    <p>m+m/2: 105</p>
-</div>
-<div>
-    <h1>Como se calcula</h1>
-        <ul>
-    <div>
-    <li>De 0kg a 10kg, se calcula 100cc por cada kilo. </li>
-    <li>Se suman 50cc por cada kilo de peso por arriba de 10kg, hasta 20kg</li>
-    <li>De 20kg para arriba, se suman 20cc por cada kilo adicional</li>
-     </ul>
+<html>
+    <head>
+        <title> Calculadora Basal</title>
+        <link rel="stylesheet" href="./style.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="contenedor">
+            <div id="calculadora">
+                <div class="contenido">
+                    <h1 id="titulo">Hidratación Basal</h1>
+                    <p id="titulo">Completa todos los datos</p>
+                    <input type="number" id="input"/>
+                    <button id="button"> Calcular </button> 
+                    <p id="titulo"> 1680cc/dia</p>
+                    <p id="titulo">70 cc/hora</p>
+                </div>
+            </div>
+            <div id="detalle">
+                <div class="contenido">
+                    <h1 id="calcu">¿Como se calcula?</h1>
+                    <ul>
+                    <li id="calcu">De 0kg a 10kg, se calcula 100cc por cada kilo.</li>
+                 <li id="calcu">Se suman 50cc por cada kilo de peso por arriba de 10kg, hasta 20kg</li>
+               <li id="calcu">De 20kg para arriba, se suman 20cc por cada kilo adicional</li>
+           </ul>
+        </div>
     </div>
-    </body>
+  </div>
+  <script src="script.js"></script>
 
+ </body>
 </html>
